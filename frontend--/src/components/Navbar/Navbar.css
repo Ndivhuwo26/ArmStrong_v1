@@ -1,38 +1,42 @@
-.navbar{
+.navbar {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 1.5rem;
     font-size: 1rem;
 }
-.nav-top{
+
+.nav-top {
     display: flex;
     justify-content: space-between;
 }
-.nav-top h2{
-    font-size:30px;
-   
+
+.nav-top h2 {
+    font-size: 30px;
 }
-.search-bar{
+
+.search-bar {
     display: flex;
     flex-grow: 1;
     max-width: 650px;
     margin: 0 20px;
 }
-.search-input{
+
+.search-input {
     padding: 10px;
     flex-grow: 1;
     border: 2px solid skyblue;
     border-right: none;
-    border: 20 0 0 20px; /* Incorrect syntax */
+    border-radius: 20px 0 0 20px;
     outline: none;
     font-size: 14px;
-
 }
-.search-input::placeholder{
+
+.search-input::placeholder {
     color: #ccc;
 }
-.search-btn{
+
+.search-btn {
     background: #ff7739;
     color: #000;
     border: none;
@@ -41,20 +45,23 @@
     font-weight: bold;
     cursor: pointer;
 }
-.icons{
+
+.icons {
     display: flex;
     align-items: center;
     gap: 1rem;
-
 }
-.icons .icon{
-    font-size:35px;
+
+.icons .icon {
+    font-size: 35px;
     cursor: pointer;
 }
-.profile-group{
+
+.profile-group {
     position: relative;
 }
-.dropdown-manu{
+
+.dropdown-menu {
     display: none;
     position: absolute;
     top: 28px;
@@ -64,21 +71,24 @@
     border-radius: 5px;
     padding: 10px;
     width: 150px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0,1);
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
 }
-.profile-group:hover .dropdown-manu{
+
+.profile-group:hover .dropdown-menu {
     display: block;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: gray;
     cursor: pointer;
     margin: 5px 0;
 }
-.cart-icon{
+
+.cart-icon {
     position: relative;
 }
-.cart-count{
+
+.cart-count {
     position: absolute;
     bottom: 15px;
     right: -5px;
@@ -88,12 +98,14 @@
     font-size: 0.7rem;
     padding: 0.2rem 0.4rem;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
-.navbar-link{
+
+.navbar-link {
     font-size: 22px;
     font-weight: 600;
 }
